@@ -2,17 +2,13 @@ package ro.java.ctrln;
 
 public class Main {
 
-    // aceasta este metoda main care pornesste o aplicatie Java
-    /*
-    aici este un alt exemplu
-    de comentariu
-    pe mai multe linii
+    /**
+     * metoda main este este metoda apelata de masina virtuala Java si care porneste o aplicatie Java
+     * putem sa transmitem argumente aditionale prin parametrul <b>args</b>
+     * @param args acesta este parametrul cu care transmitem argumente programului nostru
+     * @author Bogdan Avram
      */
-    public static void main(/* args este parametrul metodei main */String[] args) {
-        /* Inainte de comentariu nu se poate pune text
-        // aici vrem sa afisam pe consola Intellij un mesaj ales de noi
-        textul face parte tot din comentariul multi linie
-         */
+    public static void main(String[] args) {
         System.out.println("Invat limbajul Java si despre masina virtuala Java!");
     }
 }
